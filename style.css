@@ -1,0 +1,81 @@
+/* General Styles */
+* {
+    font-family: "Poppins";
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #fefaef;
+}
+
+/* Navigation Bar */
+.nav-bar {
+    background: rgba(255, 255, 255, 0);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4.5px);
+    -webkit-backdrop-filter: blur(4.5px);
+    color: white;
+}
+.emotions{
+    box-shadow: 0 0 8px 8px #fefaef;
+}
+/* Home Section */
+#home {
+    background-image: url('images/cover.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+/* Sidebar */
+#mySidebar a {
+    text-decoration: none;
+}
+
+/* Card Styles */
+.card {
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card .p-3 {
+    padding: 15px;
+}
+
+.card h3 {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.card p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Stars */
+.stars i {
+    color: gold;
+    font-size: 24px;
+}
+
+.stars i.bi-star {
+    color: gray;
+}
+
+/* Specific Classes */
+.w3-bar-block .w3-bar-item {
+    padding: 20px;
+}
